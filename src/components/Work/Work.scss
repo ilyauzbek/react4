@@ -1,0 +1,28 @@
+.Work__text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 7px;
+  justify-content: center;
+  margin-bottom: 100px;
+
+  h1 {
+    font-weight: 400;
+    font-size: 48px;
+   
+  }
+
+  a {
+    font-size: 38px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: 0.7s;
+
+    &:hover {
+      color: rgba(60, 60, 60, 0.5);
+    }
+  }
+}
